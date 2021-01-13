@@ -1,0 +1,81 @@
+body
+{
+ background-image: url(pics/bg.jpeg);
+}
+
+@font-face
+ {
+    font-family: myFont;
+    src: url(fonts/digital-7.ttf);
+ }
+
+@font-face
+{
+  font-family: font2;
+  src: url(fonts/aqua.ttf);
+
+}
+
+
+.clock_title
+{
+  font-family: font2;
+  color: slateblue;
+  font-size: 120px;
+  margin-top: 7%;
+  margin-left: 29%;
+  
+}  
+
+#clock
+{
+    border: 25px solid #00539CFF;
+    color:darkred;
+    font-family: myFont;
+    font-size: 175px;
+    background:black;
+    border-radius: .5em;
+    box-shadow: 0 0 0 .05em black;
+    height:200px;
+    display: inline-block;
+    padding: 20px;
+    width: 600px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+#time
+{
+    text-align: center;
+    margin-top: 2%;
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+#seconds
+{
+  margin-left: 500px;
+  font-size: 70px;
+  margin-top: -85px;
+  color:darkred;
+}
+
+#session
+{
+  margin-left: 25px;
+  font-size: 50px;
+  margin-top: -130px;
+  color:darkred;
+}
+
+
+.base
+ {
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 150px solid #655;
+    margin-left: 40%;
+    margin-top: 20px;
+  }
